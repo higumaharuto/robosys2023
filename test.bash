@@ -9,7 +9,7 @@ ng () {
 
 res=0
 
-
+### I/O TEST (入出力のテスト)###
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
 
