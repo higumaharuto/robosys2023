@@ -4,11 +4,30 @@
 
 import sys
 
-ans = 0
+ans1 = 0
+ans2 = 0
+
 for line in sys.stdin:
     try:
-        ans += int(line)
+        ans1 += int(line)
+        ans2 -= int(line)
+    
     except:
-        ans += float(line)
+        ans1 += float(line)
+        ans2 -= float(line)
+    
+print(ans1)
+print(ans2)
 
-print(ans)
+if ans1 < 100:
+    print("ans1は100以下の数です")
+elif ans1 > 100:
+    print("ans1は100以上の数です")
+
+if ans2 < 100:
+    print("ans2は100以下の数です")
+elif ans2 > 100:
+    print("ans2は100以上の数です")
+
+
+
