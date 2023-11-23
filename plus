@@ -3,15 +3,13 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 import sys
-
 ans1 = 0
 ans2 = 0
 
 for line in sys.stdin:
     try:
         ans1 += int(line)
-        ans2 -= int(line)
-    
+        ans2 -= int(line)    
     except:
         ans1 += float(line)
         ans2 -= float(line)
@@ -23,7 +21,6 @@ if ans1 < 100:
     print("ans1は100以下の数です")
 elif ans1 > 100:
     print("ans1は100以上の数です")
-
 if ans2 < 100:
     print("ans2は100以下の数です")
 elif ans2 > 100:
