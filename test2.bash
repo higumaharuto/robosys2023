@@ -9,9 +9,9 @@ ng () {
 
 res=0
 
-out=$(seq 15 | sed 's/$/.1/' | ./plus)
+out=$(seq 15 | ./plus)
 
-[ "$(echo "${out}" | tr -d '\n')" = "121.49999999999999-121.49999999999999ans1は100以上の数ですans2は100以下の数です" ] || ng ${LINENO}
+[ "$(echo "${out}" | tr -d '\n')" = "120-120ans1は100以上の数ですans2は100以下の数です" ] || ng ${LINENO}
 
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
