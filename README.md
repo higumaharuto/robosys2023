@@ -4,7 +4,7 @@ ohayou
 
  
 # plusコマンド
-![test](https://github.com/higumaharuto/robosys2023/actions/workflows/test.yml/badge.svg)
+![test(https://github.com/higumaharuto/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/higumaharuto/robosys2023/actions/workflows/test.yml/badge.svg)
 
 
 標準出力から読み込んだ数字を足し算と引き算で計算したものを表示する。
@@ -25,7 +25,7 @@ ans2は100以下の数です<br>
   * テスト済み: 3.7~3.10
 
 ## テスト環境
-* Ubuntu
+* Ubuntu 22.04.2 LTS
 
 
 ##著作権・ライセンス
