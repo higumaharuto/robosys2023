@@ -4,10 +4,18 @@ ohayou
 
  
 # plusコマンド
-[![test](https://github.com/higumaharuto/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/higumaharuto/robosys2023/actions/workflows/test.yml)
+![test](https://github.com/higumaharuto/robosys2023/actions/workflows/test.yml/badge.svg)
 
-標準出力から読み込んだ数字を足す。
 
+標準出力から読み込んだ数字を足し算と引き算で計算したものを表示する。
+また、その出力された数が100以下なのかそれとも100以上なのか判定する。
+例えば、seq関数をパイプを通して実行(seq 15 | ./plus)する
+この結果は
+120
+-120
+ans1は100以上の数です
+ans2は100以下の数です
+と出力される。
 
 ##　必要なソフトウェア
 * Python
