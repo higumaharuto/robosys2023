@@ -11,7 +11,10 @@ res=0
 
 out=$(seq 15 | ./plus)
 
-[ "$(echo "${out}" | tr -d '\n')" = "120-120ans1は100以上の数ですans2は100以下の数です" ] || ng ${LINENO}
+[ "${out}" = "120
+-120
+ans1>100
+ans2<100" ] || ng ${LINENO}
 
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
