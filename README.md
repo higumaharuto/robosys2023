@@ -55,6 +55,6 @@ ans2<100
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
 * [ryuichiueda/my_slides/robosys_2022/lesson4.md](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md) 
 
-* © 2023 Haruto Higuma
+* © 2023 higumaharuto
 
 
