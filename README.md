@@ -4,7 +4,8 @@
 
  
 # plusコマンド
-![test(https://github.com/higumaharuto/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/higumaharuto/robosys2023/actions/workflows/test.yml/badge.svg)
+[![test](https://github.com/higumaharuto/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/higumaharuto/robosys2023/actions/workflows/test.yml)
+
 
 
 標準出力から読み込んだ数字を足し算と引き算で計算したものを表示する。
